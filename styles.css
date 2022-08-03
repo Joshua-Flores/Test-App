@@ -1,0 +1,51 @@
+:root {
+    --color-base: #212529;
+}
+
+body {
+    background-color: hsl(0,0%,96%)
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h2.card-title {
+    font-size: 1.2rem;
+    font-weight: 700
+}
+
+div.navbar-collapse {
+    flex-grow: 0
+}
+
+li.nav-item.dropdown {
+    padding: 0 16px;
+}
+
+a.nav-link.dropdown-toggle {
+    color: var(--color-base)
+}
+
+button.navbar-toggler {
+    background-color: white;
+}
+
+button.navbar-toggler i {
+    color: var(--color-base)
+}
+
+main {
+    padding: 2rem 0
+}
+
+
+div.card {
+    margin-bottom: 1.5rem;
+    transition: .15s
+}
+
+div.card:hover {
+    border-color: hsla(0,0%,0%,.5)
+}
